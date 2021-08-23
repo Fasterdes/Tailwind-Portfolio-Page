@@ -16,6 +16,14 @@ module.exports = {
                 'bg-brown-semi-dark' : "rgba(228, 216, 212, 0.15)",
                 'bg-brown-dark'  : "#4B3C3B",
                 'bg-brown-light' : "#FFFBF9"
+            },
+
+            purple : { 
+                'light-pastel' : "#DEDAFF"
+            },
+
+            blue : { 
+                'light-pastel' : '#A8C2FF'
             }
       },
 
