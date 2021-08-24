@@ -30,7 +30,7 @@ module.exports = {
         fontFamily : { 
             // TYPOGRAPHY FROM GOOGLE FONTS
             'body-font' : ['Lato', 'sans-serif'],
-            'heading-font' : ['Inter' , 'sans-serif']
+            'heading-font' : ['Poppins' , 'sans-serif']
         } 
     }
   },
