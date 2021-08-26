@@ -18,8 +18,6 @@
 
     <!--========== LINK CSS ==========-->
     <link rel="stylesheet" href="/dist/css/styles.css">
-    <!--========== LINK ICON ==========-->
-    <link rel="stylesheet" href="/dist/css/icon.css">
     <!--========== LINK FAVICON ==========-->
     <link rel="shortcut icon" href="/dist/img/logo/logo-white.svg" type="image/x-icon">
     <!--========== LINK GOOGLE FONT (LATO AND POPPINS) ==========-->
@@ -30,8 +28,8 @@
 
 <body class="bg-brown-light-brown leading-relaxed tracking-wide font-body-font text-lg w-screen overflow-x-hidden">
     <!--========== HEADER COMPONENT ==========-->
-    <nav id="nav" class="mx-auto border-b-2 border-brown-brown w-screen p-6 relative">
-        <div class="flex justify-end ">
+    <nav id="nav" class="mx-auto border-b-2 border-brown-brown w-screen p-6 relative max-h-full">
+        <div class="flex justify-end container mx-auto ">
             <hr class="border h-24 border-brown-brown absolute right-96 mr-44 hidden sm:block bottom-0 rotate-90">
             <ul class="flex items-center gap-20 ">
                 <li>
@@ -55,9 +53,9 @@
 
     <!--========== MAIN FRAME  ==========-->
     <main class="grid gap-24 ">
-        <section class=" grid gap-24 bg-brown-bg-brown-semi-dark max-h-full w-screen" id="home-about"> <!-- for adding brown background -->
+        <section class=" grid gap-24 bg-brown-bg-brown-semi-dark max-h-full w-screen " id="home-about"> <!-- for adding brown background -->
             <!--========== HOME PAGE ==========-->
-            <div id="home" class=" mx-auto sm:mt-40 mt-14 flex flex-col items-center">
+            <div id="home" class=" mx-auto sm:mt-40 mt-14 flex flex-col items-center container">
                 <div class="flex items-center gap-5 max-w-full">
                     <img src="/dist/img/profile/tinyProfile.png" alt="tinyProfile" class="w-10 sm:w-max">
                     <h2 class="sm:text-2xl text-base  font-body-font uppercase text-brown-dark-brown font-semibold">Fa
@@ -88,7 +86,7 @@
             </div>
 
             <!--========== ABOUT ==========-->
-            <div id="about" class="mx-auto sm:mt-24 mt-8 grid place-items-center gap-6">
+            <div id="about" class="mx-auto sm:mt-24 mt-8 grid place-items-center gap-6 container">
                 <img src="/dist/img/profile/profile.png" alt="about-profile">
                 <div class="grid place-items-center gap-3">
                     <h2 class="font-bold text-brown-dark-brown text-2xl ">About Me</h2>
@@ -118,8 +116,8 @@
         </section>
 
         <!--========== PROJECT ==========-->
-        <section id="project-showcase" class="max-w-full">
-            <div id="project" class="grid place-content-center mx-auto gap-10 sm:gap-20">
+        <section id="project-showcase" class="w-screen">
+            <div id="project" class="grid place-content-center mx-auto gap-10 sm:gap-20 container">
                 <div class="grid place-content-center sm:gap-2">
                     <h1
                         class="sm:text-6xl text-3xl uppercase text-center font-extrabold font-heading-font mb-2 text-brown-dark-brown leading-tight">
@@ -130,12 +128,12 @@
 
                 <div class="grid grid-row-3 gap-20 max-w-5xl justify-center ">
                     <div class="w-full flex justify-center bg-purple-light-pastel items-center p-10">
-                        <img src="/dist/content/mockup3.png" alt="content1" class="w-80">
+                        <img src="/dist/content/mockup3.png" alt="content1" class="w-80" loading="lazy">
                     </div>
 
                     <div class="w-full flex justify-center bg-blue-light-pastel items-center p-10">
-                        <img src="/dist/content/mockup2.png" alt="content1" class="sm:w-2/3 hidden sm:block ">
-                        <img src="/dist/content/mockup1.png" alt="content1" class="sm:w-64 w-80">
+                        <img src="/dist/content/mockup2.png" alt="content1" class="sm:w-2/3 hidden sm:block " loading="lazy">
+                        <img src="/dist/content/mockup1.png" alt="content1" class="sm:w-64 w-80" loading="lazy">
                     </div>
                 </div>
             </div>
@@ -143,7 +141,7 @@
 
         <!--========== CONTACT ==========-->
         <section class=" grid bg-brown-bg-brown-semi-dark max-h-full w-screen" id="contact-section"> <!-- for adding brown background -->
-            <div id="contact" class=" mx-auto sm:mt-40 mt-10 sm:mb-24 mb-10 flex flex-col items-center">
+            <div id="contact" class=" mx-auto sm:mt-40 mt-10 sm:mb-24 mb-10 flex flex-col items-center container">
                 <div class="grid place-content-center gap-4 sm:gap-6 mt-10">
                     <h1
                         class="sm:text-7xl text-3xl uppercase font-extrabold font-heading-font text-center text-brown-dark-brown">
@@ -158,7 +156,7 @@
         </section>
 
         <!--========== FOOTER ==========-->
-        <footer class="mx-auto border-t-2 -mt-24 border-brown-brown  w-screen max-h-full p-6 relative"
+        <footer class="mx-auto border-t-2 -mt-24 border-brown-brown w-screen max-h-full p-6 relative"
             id="footer-section">
             <div id="footer" class="sm:flex sm:justify-between items-center">
                 <div class="flex items-center ml-10 gap-8 ">

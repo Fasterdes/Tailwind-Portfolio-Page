@@ -3,3 +3,71 @@
 @import "tailwindcss/components";
 @import "tailwindcss/utilities";
 
+
+/*========== EXTERNAL UTILITIES CLASSES ==========*/
+@layer base { 
+    /* CONTAINER CENTER */ 
+    .container-center { 
+        @apply container mx-auto ;
+    }
+
+    /* SECTION BASE WIDTH AND HEIGHT (FIX) */
+    .section{ 
+        @apply w-screen max-h-full relative ; 
+    }
+
+    /* FLEX ITEMS */
+    .flex-row-center { 
+        @apply flex flex-row justify-center items-center ;
+    }
+
+    .flex-col-center { 
+        @apply flex flex-col justify-center items-center ;
+    }
+    
+    .flex-end { 
+        @apply flex justify-end ;
+    }
+
+    /* GRID ITEMS */
+    .grid-row-center { 
+        @apply grid grid-rows-3 gap-20 place-content-center ;
+    }
+
+    .grid-gap-base { 
+        @apply grid gap-24 ; 
+    }
+
+    .grid-gap-6 { 
+        @apply grid gap-6 ;
+    }
+
+    /* TYPOGRAPHY  */
+    .line-height-body { 
+        @apply leading-relaxed tracking-wide font-body-font text-lg ; 
+    }
+
+    .h1-md-center { 
+        @apply sm:text-6xl text-brown-dark font-extrabold font-heading-font leading-tight ;
+    }
+
+    .h1-sm-center { 
+        @apply text-3xl text-brown-dark font-extrabold font-heading-font leading-tight ;
+    }
+
+    .paragraf-md-center { 
+        @apply sm:text-lg text-center text-brown lg:w-1/2 font-body-font lowercase font-medium ;
+    }
+
+    .paragraf-sm-center { 
+        @apply text-base text-center  text-brown p-2  font-body-font lowercase font-medium ;
+    }
+}
+
+/* @layer components { 
+    /* BUTTON COMPONENTS */
+
+    /* .button-md-primary { 
+        @apply font-body-font bg-dark 
+    } */
+/* } */ 

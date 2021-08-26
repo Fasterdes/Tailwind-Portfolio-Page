@@ -1,1 +1,1 @@
-Commit dulu udh ngantuk bsk aja dikerjain hehe, cheers <3
+Sudah online tetapi setelah ditest masih banyak kendala terutama di responsive alhasil akan mengurangi nilai User Experience pengguna.
